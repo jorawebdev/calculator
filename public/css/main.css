@@ -1,0 +1,22 @@
+body {
+    font-family: source-sans-pro, sans-serif;
+    font-size: 15px;
+    color:#666;
+}
+.navbar{height:68px;}
+.navbar-brand{padding:3px 0 0 15px;font-size: 3em;cursor: pointer;color:red;}
+.navbar-inverse .navbar-brand{color:#F0A111;}
+.navbar-inverse .navbar-brand:hover{color:#26C1Ff;}
+.container{margin-top:68px;}
+
+.table > thead > tr > th,
+.table > tbody > tr > td{border:none;}
+#calBox{width:200px;color:#fff;}
+#operator{text-align:left; float:left;}
+#result{text-align:right; float:right;}
+#calBox th div{background-color: #ccc;color:#000;padding:3px;font-weight: normal;border-radius: 3px;}
+#calBox td .btn{width:50px;	cursor: pointer; text-align: center;}
+.basicOperationBtn {background-color: #11b7f0;}
+.otherBtn {background-color: #F0A111;}
+.resultField {background-color: #CCF;padding: 2px;text-align: right;width: 100%;}
+#btnEnter{height: 85px;}
